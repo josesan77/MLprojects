@@ -60,7 +60,7 @@ In case of no objects, but a white background classification showed non-zero mat
 
 ![Battery (3-classes)](tm-screwdriver-battery-model/2_05_Preview_BatteryWhBG.png)
 
-![Screwdriver (3-classes)](tm-screwdriver-battery-model/1_05_Preview_ScrewDriverWhBG.png)
+![Screwdriver (3-classes)](tm-screwdriver-battery-model/2_05_Preview_ScrewDriverWhBG.png)
 
 ![Empty (3-classes)](tm-screwdriver-battery-model/2_05_Preview_whiteBG.png)
 
