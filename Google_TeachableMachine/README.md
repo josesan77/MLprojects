@@ -33,7 +33,7 @@ Export and Use: The trained models were exported and can be integrated into vari
 For TensorFlow, TensorFlow Lite, python/js scripts, and Android/Coral.ai compatible codes see example files in the __tm-screwdriver-battery-model/src__ folder.
 
 An *under-the-hood* option can give insight in the change of the variables during training (showing the developing saturation curves) or the final result's *Accuracy* or *Confusion matrix* can be checked.
-[*Accuracy* and *Confusion matrix*](tm-screwdriver-battery-model/1_04_Training_UnderTheHood_2.png)
+![*Accuracy* and *Confusion matrix*](tm-screwdriver-battery-model/1_04_Training_UnderTheHood_2.png)
 
 # Models
 
@@ -50,19 +50,19 @@ However using a white (paper) background is not the most appropriate way of "rem
 
 Frankly saying if none of the objects were on screen but there were not related objects in the background the simple 2-class screwdriver/battery classification showed none zero probability of recognizing one or the other element. The convincing classification cases:
 
-[Battery (2-classes)](tm-screwdriver-battery-model/1_05_Preview_BatterywoBG.png)
+![Battery (2-classes)](tm-screwdriver-battery-model/1_05_Preview_BatterywoBG.png)
 
-[Screwdriver (2-classes)](tm-screwdriver-battery-model/1_05_Preview_ScrewDriverwoBG.png)
+![Screwdriver (2-classes)](tm-screwdriver-battery-model/1_05_Preview_ScrewDriverwoBG.png)
 
-[Empty (2-classes)](tm-screwdriver-battery-model/1_05_Preview_whiteBG.png)
+![Empty (2-classes)](tm-screwdriver-battery-model/1_05_Preview_whiteBG.png)
 
 In case of no objects, but a white background classification showed non-zero match for one of the class-types, see image above. This induced the creation of the upgraded 3-class screwdriver/battery/(white) background classification model.
 
-[Battery (3-classes)](tm-screwdriver-battery-model/2_05_Preview_BatteryWhBG.png)
+![Battery (3-classes)](tm-screwdriver-battery-model/2_05_Preview_BatteryWhBG.png)
 
-[Screwdriver (3-classes)](tm-screwdriver-battery-model/1_05_Preview_ScrewDriverWhBG.png)
+![Screwdriver (3-classes)](tm-screwdriver-battery-model/1_05_Preview_ScrewDriverWhBG.png)
 
-[Empty (3-classes)](tm-screwdriver-battery-model/2_05_Preview_whiteBG.png)
+![Empty (3-classes)](tm-screwdriver-battery-model/2_05_Preview_whiteBG.png)
 
 
 Of course the model has limitations, but it was proven usable. 
