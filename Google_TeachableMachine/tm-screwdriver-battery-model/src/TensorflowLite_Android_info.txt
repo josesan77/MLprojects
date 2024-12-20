@@ -1,0 +1,10 @@
+https://github.com/tensorflow/examples/blob/master/lite/examples/image_classification/android/README.md
+@Override
+protected String getModelPath() {
+  return "converted_tflite_quantized/model.tflite";
+}
+
+@Override
+protected String getLabelPath() {
+  return "converted_tflite_quantized/labels.txt";
+}
