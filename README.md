@@ -17,16 +17,16 @@ Options are:
 - image based posture (key body point) recognition
 
 Ease of Use: Create models for image recognition, audio classification, or posture detection by providing examples in an interactive interface. 3 simple video tutorial guides you through the required steps.
-![snapshot of Model Training tutorial video](./Google_TeachableMachine/Training_Tuorial_m.png)
+![snapshot of Model Training tutorial video](./Google_TeachableMachine/Training_Tutorial_m.png)
 
 Export Options: Trained models can be exported for use in web applications, mobile apps, or other projects. Tensorflow (python, js), Keras, Android, Coral.ai supported (2024/12)
-![Save&Share&Open Model](./Google_TeachableMachine/save_open_share_options_m.png)
+[Save&Share&Open Model](./Google_TeachableMachine/save_open_share_options_m.png)
 
 Accessibility: Designed to make machine learning accessible to educators, students, and hobbyists, therefore easy to do the first step.
 
 A powerful resource for quick prototyping and creative experimentation.
 
-Folders: ![Teachable Machine Models](./Google_TeachableMachine/README.md)
+Folders: [Teachable Machine Models](./Google_TeachableMachine/README.md)
 1) tm-apple_classifier-model - image based model for classification of fine/rotten apples, including test images
 2) tm-screwdriver-battery-model - video camera captured images for screwdriver / battery recognition, models with and without recognizing empty (background) images. Recognition on video: continuous on-line classification.
 
@@ -38,4 +38,9 @@ Lobe is particularly appealing to beginners and non-developers, as it simplifies
 
 Export Options: Trained models can be exported to formats compatible with common platforms, such as TensorFlow, ONNX, or CoreML, for integration into apps or other systems.
 
-Find more information in the lobeai_info.txt in the ![Lobe](./Lobe/README.md) folder.
+Find more information in the lobeai_info.txt in the [Lobe](./Lobe/README.md) folder.
+
+## SciKit Image - image processing examples
+Collection of image processing projects, using different *SciKit image* tools in notebooks.
+
+[SciKitImage](./SciKitImage/README.md) folder.
