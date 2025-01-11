@@ -53,11 +53,11 @@ or, from the command line:
 ```
 python -c "import skimage; print(skimage.__version__)"
 ```
-and install if not present:
+and install if not present (from command line):
 ```
 python -m pip install -U scikit-image
 python -m pip install -U scikit-image[data]
 ```
-The latter one is for the image sample dataset.
+The latter one is for the image sample dataset a well selected starter set to learn and play around.
 
 Have fun!
