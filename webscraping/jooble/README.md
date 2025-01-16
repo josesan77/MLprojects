@@ -35,18 +35,22 @@ requested. The `<a>` tag is pasted as-is, while other text contents are added as
 opened in the default web browser.
 
 ### Dependencies:
-- **BeautifulSoup4**: Install it using `pip install beautifulsoup4`.
-- **langdetect**: language detection (Machine learning, based on a Google ML) module, install using pip if missing
-- re, datetime are typically involved in Python basic module package
+- ```BeautifulSoup4```: Install it using `pip install beautifulsoup4`.
+- ```langdetect```: language detection (Machine learning, based on a Google ML) module, install using pip if missing
+- ```re```, ```datetime``` are typically involved in Python basic module package
 
 dependencies:
-1)    try in python (IDE) shell/command line:
+1) try in python (IDE) shell/command line:
+```
 import langdetect
 import BeautifulSoup
+```
 and if some fails install it
-2) 
+2) install the missing module
+```
 pip install langdetect
 pip install BeautifulSoup
+```
 
 **Note**: Jooble may vary the tags, codes on the website, therefore if the software fails to run
 due to error(s) in finding predefined html tags, then use F12 mode in your browser

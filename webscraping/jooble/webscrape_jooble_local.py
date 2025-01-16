@@ -35,10 +35,10 @@ requested. The `<a>` tag is pasted as-is, while other text contents are added as
 opened in the default web browser.
 
 ### Dependencies:
-- **BeautifulSoup4**: Install it using `pip install beautifulsoup4`.
-- **langdetect**: language detection module (Machine learning, based on a Google ML),
+- ```BeautifulSoup4```: Install it using `pip install beautifulsoup4`.
+- ```langdetect```: language detection module (Machine learning, based on a Google ML),
     install using pip if missing
-- re, datetime are typically involved in Python basic module package
+- ```re```, ```datetime``` are typically involved in Python basic module package
 
 dependencies:
 1)    try in python (IDE) shell/command line:
