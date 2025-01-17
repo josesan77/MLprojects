@@ -44,3 +44,20 @@ Find more information in the lobeai_info.txt in the [Lobe](./Lobe/README.md) fol
 Collection of image processing projects, using different *SciKit image* tools in notebooks.
 
 [SciKitImage](./SciKitImage/README.md) folder.
+
+## CUDA in Python on Google Colab (Notebook)
+Notebook to demonstrate how to configure and run C++ code with CUDA acceleration using Google Colab(oratory) GPU or TPU.
+
+in folder: 'CUDA'
+
+## Webscraping + language detection
+Simple webscraping projects targeting _Jooble_ job market webpage. Language detection uses the langdetect python pretrained module to verify the language of the posted job.
+
+A short code for demonstartional purposes how to webscrape directly the Jooble job market in the USA, using Jooble API. Unfortunately the API key cannot be used for other countries! (see instructions in file how to get it)
+
+[Webscraping](webscraping/README.md)
+
+## LLMs
+Projects using Large Language Models for different tasks. *Google* and *HuggingFace *involved.
+
+[LLMs](LLMs/README.md)
